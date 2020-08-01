@@ -3,7 +3,7 @@
   "id": "inventoryprofiles",
   "version": "${version}",
   "name": "Inventory Profiles",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Inventory Profiles is a client side mod that helps you organize and sort your inventory or chests. Multiplayer is supported and no any mods is required for the server.",
   "authors": [
     "jsnimda"
   ],
@@ -11,7 +11,7 @@
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/inventory-profiles",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/inventoryprofiles/icon.png",
   "environment": "client",
   "entrypoints": {
