@@ -199,13 +199,13 @@
     "inventoryprofiles.config.name.sort_inventory_in_columns":      "Sort Inventory In Columns",
     "inventoryprofiles.config.name.sort_inventory_in_rows":         "Sort Inventory In Rows",
     "inventoryprofiles.config.name.move_all_items":                 "Move All Items",
-    "inventoryprofiles.config.name.dump_item_nbt_to_chat":          "Dump Item Nbt To Chat",
+    "inventoryprofiles.config.name.dump_item_nbt_to_chat":          "Dump Item NBT To Chat",
 
     "inventoryprofiles.config.description.open_config_menu":            "The key open the in-game config GUI",
     "inventoryprofiles.config.description.sort_inventory":              "The key to sort the inventory",
     "inventoryprofiles.config.description.sort_inventory_in_columns":   "The key to sort the inventory in columns",
     "inventoryprofiles.config.description.sort_inventory_in_rows":      "The key to sort the inventory in rows",
-    "inventoryprofiles.config.description.move_all_items":              "The key to move all the itmes that already existed in the container",
+    "inventoryprofiles.config.description.move_all_items":              "The key to move all the items that already existed in the container",
     "inventoryprofiles.config.description.dump_item_nbt_to_chat":       "Prints the item string with nbt to the chat",
 
 
@@ -233,7 +233,7 @@
     "inventoryprofiles.config.name.disable_item_use_cooldown":          "Disable Item Use Cooldown",
     "inventoryprofiles.config.name.disable_screen_shaking_on_damage":   "Disable Screen Shaking On Damage",
     "inventoryprofiles.config.name.disable_lava_fog":                   "Disable Lava Fog",
-    "inventoryprofiles.config.description.instant_mining_cooldown":             "Adds breaking delay to the blocks that you can instantly mine. This option has lower priority than \"disableBlockBreakingCooldown\".",
+    "inventoryprofiles.config.description.instant_mining_cooldown":             "Adds breaking delay to the blocks that you can instantly mine. This option has lower priority than \"Disable Block Breaking Cooldown\".",
     "inventoryprofiles.config.description.disable_block_breaking_cooldown":     "Removes breaking delay for all blocks",
     "inventoryprofiles.config.description.disable_item_use_cooldown":           "Removes use key cooldown so you can have equivalently 1 right click every game tick. Can use along with Tweakeroo \"tweakPlacementRestriction\".",
     "inventoryprofiles.config.description.disable_screen_shaking_on_damage":    "Receiving damage no longer shakes your screen",
