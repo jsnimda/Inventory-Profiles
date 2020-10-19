@@ -1,0 +1,313 @@
+{
+
+    "inventoryprofiles.gui.config.title": "Inventory Profiles (Envanter Profilleri) v%s Ayarları",
+
+    "inventoryprofiles.common.gui.config.reset": "Sıfırla",
+    "inventoryprofiles.common.gui.config.true": "§2Evet",
+    "inventoryprofiles.common.gui.config.false": "§4Hayır",
+    "inventoryprofiles.common.gui.config.yes": "evet",
+    "inventoryprofiles.common.gui.config.no": "hayır",
+    "inventoryprofiles.common.gui.config.more": " ...(fazlası)",
+
+    "inventoryprofiles.common.gui.config.advanced_keybind_settings": "Gelişmiş Tuş Bağlama Ayarları",
+    "inventoryprofiles.common.gui.config.activate_on": "Aktifleştirmek İçin",
+    "inventoryprofiles.common.gui.config.context": "Kullanım Alanı",
+    "inventoryprofiles.common.gui.config.allow_extra_keys": "Ekstra Tuşa İzin Ver",
+    "inventoryprofiles.common.gui.config.order_sensitive": "Düzen Hassasiyeti",
+    "inventoryprofiles.common.gui.config.modifier_key": "Ctrl/Alt/Shift",
+    "inventoryprofiles.common.gui.config.keybind_settings_tips": "- Ayarlamak için sol tıkla\n- Varsayılana dönmek için sağ tıkla",
+
+    "inventoryprofiles.common.enum.key_action.press": "Bas",
+    "inventoryprofiles.common.enum.key_action.release": "Bırak",
+    "inventoryprofiles.common.enum.key_action.both": "Bas ve Bırak",
+    "inventoryprofiles.common.enum.context.ingame": "Oyun İçi",
+    "inventoryprofiles.common.enum.context.gui": "Arayüz",
+    "inventoryprofiles.common.enum.context.any": "Oyun İçi ve Arayüz",
+    "inventoryprofiles.common.enum.modifier_key.differentiate": "Sol/sağ farkeder",
+    "inventoryprofiles.common.enum.modifier_key.normal": "normal",
+
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.ModSettings": "Mod Ayarları",
+
+    "inventoryprofiles.config.category.inventory_sorting": "Sıralama Seçenekleri",
+    "inventoryprofiles.config.category.move_matching_items": "Eşleşen Eşyaları Taşı",
+    "inventoryprofiles.config.category.lock_slots": "Alanları Kitle",
+    "inventoryprofiles.config.category.auto_refill": "Otomatik Doldur",
+    "inventoryprofiles.config.category.advanced_options": "Gelişmiş Seçenekler",
+
+    "inventoryprofiles.config.name.open_config_folder":                 "§aAyar Klasörünü Aç",
+    "inventoryprofiles.config.name.reload_rule_files":                  "§aKural Dosyalarını Yenile",
+    "inventoryprofiles.config.description.open_config_folder":          ".minecraft/config/inventoryprofiles klasörünü aç",
+    "inventoryprofiles.config.description.reload_rule_files":           "Ayar klasöründeki rule.*.txt dosyalarını yeniden yükle",
+    "inventoryprofiles.gui.config.button.open_config_folder":           "config/inventoryprofiles",
+    "inventoryprofiles.gui.config.button.reload_rule_files":            "rule.*.txt'yi yeniden yükle",
+    "inventoryprofiles.gui.config.button.reload_rule_files.reloaded":   "Tümü yeniden yüklendi!",
+
+    "inventoryprofiles.config.name.sort_order":                         "Sıralama Düzeni",
+    "inventoryprofiles.config.name.custom_rule":                        "Özel Kural",
+    "inventoryprofiles.config.description.sort_order":                  "Envanter sıralaması için kullanılan sıralama metodu",
+    "inventoryprofiles.config.description.custom_rule":                 "Özel sıralama metodu için kural",
+
+    "inventoryprofiles.config.name.include_hotbar_modifier":            "Sık Kullanılanı Dahil Etme Değiştiricisi",
+    "inventoryprofiles.config.name.move_all_modifier":                  "Tümünü Taşıma Değiştiricisi",
+    "inventoryprofiles.config.name.always_include_hotbar":              "Her Zaman Sık Kullanılanı Dahil Et",
+    "inventoryprofiles.config.name.always_move_all":                    "Her Zaman Tümünü Taşı",
+    "inventoryprofiles.config.description.include_hotbar_modifier":     "Sık kullanılan çubuğunu dahil etmek için bu tuşa basılı tut",
+    "inventoryprofiles.config.description.move_all_modifier":           "Hepsini taşımak için bu tuşa basılı tut",
+    "inventoryprofiles.config.description.always_include_hotbar":       "Değiştirici tuşuna basmadan sık kullanılan çubuğunu dahil et (sık kullanılanı hariç tutmak için değiştirici tuşunu basılı tut.)",
+    "inventoryprofiles.config.description.always_move_all":             "Değiştirici tusuna basmadan hepsini taşı (Eşleşen eşyaları seçmek için sonra değiştirici tuşunu basılı tut.)",
+
+    "inventoryprofiles.config.name.enable_lock_slots":                  "Alan Kilitlemeyi Etkinleştir",
+    "inventoryprofiles.config.name.lock_slots_switch_config_modifier":  "Ayar Değiştirme Değiştiricisi",
+    "inventoryprofiles.config.name.lock_slots_config_key":              "Ayar Tuşu",
+    "inventoryprofiles.config.name.lock_slots_quick_config_key":        "Hızlı Ayar Tuşu",
+    "inventoryprofiles.config.name.lock_slots_quick_disable":           "Hızlı Devre Dışı Bırakma",
+    "inventoryprofiles.config.name.lock_slots_config_switch_type":      "Ayar Değiştirme Tipi",
+    "inventoryprofiles.config.name.show_locked_slots_background":       "Kilitli Alan Arkafonunu Göster",
+    "inventoryprofiles.config.name.show_locked_slots_foreground":       "Kilitli Alan Önfonunu Göster",
+    "inventoryprofiles.config.name.locked_slots_foreground_style":      "Kilitli Alan Önfon Tasarımı",
+    "inventoryprofiles.config.description.enable_lock_slots":                  "Kilitli alanlar: sırala, hepsini taşı, imleç temizle, devamlı üretim tedarik deposu, otomatik doldurma tedarik deposu (otomatik doldurma gözetim alanları etkilenmez) gibi şeyleri göremezden gelir. Sütun/satır grupları ancak geriye kalan kilidi açık alanlar dikdörtgenken çalışabileceğine dikkat edin.",
+    "inventoryprofiles.config.description.lock_slots_switch_config_modifier":  "\"Ayar Tuşu\" aracılığıyla tuşa basılı tutarken (Varsayılan: Alt + Sol Tık) kilitli alanı ayarla",
+    "inventoryprofiles.config.description.lock_slots_config_key":              "Değiştirici tuşuna basılı tutarken (Varsayılan: Alt + Sol Tık) kilitli alanı ayarla",
+    "inventoryprofiles.config.description.lock_slots_quick_config_key":        "Değiştirici tuşuna basmadan kilitli alanı ayarla",
+    "inventoryprofiles.config.description.lock_slots_quick_disable":           "Bu tuş basılıyken kilitli alanı hızlı devre dışı bırak",
+    "inventoryprofiles.config.description.lock_slots_config_switch_type":      "Ayar değiştirme tipini aç/kapa veya basılı tutma olacak şeklinde ayarla",
+    "inventoryprofiles.config.description.show_locked_slots_background":       "Kilitli alanın arkaplanını göster(Kendi doku paketini alttaki adresten düzenleyebilirsin\n\nresourcepacks/§o[paket_ismi]§r/assets/inventoryprofiles/textures/gui/overlay.png)",
+    "inventoryprofiles.config.description.show_locked_slots_foreground":       "Kilitli alanın önplanını göster\n(Kendi doku paketini alttaki adresten düzenleyebilirsin\n\nresourcepacks/§o[paket_ismi]§r/assets/inventoryprofiles/textures/gui/overlay.png)",
+    "inventoryprofiles.config.description.locked_slots_foreground_style":      "Hazır önfon tasarımını seç\n(Kendi doku paketini alttaki adresten düzenleyebilirsin\n\nresourcepacks/§o[paket_ismi]§r/assets/inventoryprofiles/textures/gui/overlay.png)",
+
+    "inventoryprofiles.config.name.enable_auto_refill":                 "Otomatik Doldurmayı Etkinleştir",
+    "inventoryprofiles.config.name.disable_for_drop_item":              "Düşmüş Eşya İçin Devre Dışı",
+    "inventoryprofiles.config.name.refill_armor":                       "Zırhı da Doldur",
+    "inventoryprofiles.config.name.refill_before_tool_break":           "Araç Kırılmadan Evvel Doldur",
+    "inventoryprofiles.config.name.tool_damage_threshold":              "Araç Hasar Sınırı",
+    "inventoryprofiles.config.name.threshold_unit":                     "Sınır Birimi",
+    "inventoryprofiles.config.name.auto_refill_wait_tick":              "Otomatik Doldurma Bekleme Tiki",
+    "inventoryprofiles.config.description.enable_auto_refill":          "Elindeki eşya tükendiğinde yerine doldur",
+    "inventoryprofiles.config.description.disable_for_drop_item":       "Düşmüş eşya için otomatik doldurmayı kapat",
+    "inventoryprofiles.config.description.refill_armor":                "Zırh alanındakilerin dayanıklılığı sıfırlandığında eşyayı yerine doldur",
+    "inventoryprofiles.config.description.refill_before_tool_break":    "Aracı/zırhı dayanıklılığı sıfırlanmadan önce yerine doldur (\"Araç Hasar Sınırı\"ndaki sınır değeriyle)",
+    "inventoryprofiles.config.description.tool_damage_threshold":       "Dayanıklılık bu değerin altındaysa (Mutlak veya %%), eşyayı yerine doldur",
+    "inventoryprofiles.config.description.threshold_unit":              "\"Araç Hasar Sınırı\" için bir birim belirle (Mutlak Değer veya Yüzde (%%))",
+    "inventoryprofiles.config.description.auto_refill_wait_tick":       "Eşya tükendikten sonra n kadar tik beklenir, sonra otomatik doldurma yapılır. Bazı laglı sunuculardayken faydalı olabilir.",
+
+    "inventoryprofiles.config.name.add_interval_between_clicks":        "Tik Arasında Beklet",
+    "inventoryprofiles.config.name.interval_between_clicks_ms":         "Tik Arası Süre (ms)",
+    "inventoryprofiles.config.name.restock_hotbar":                     "Sık Kullanılan Çubuğu'nu Yeniden Stokla",
+    "inventoryprofiles.config.name.sort_at_cursor":                     "İmlece Gore Sırala",
+    "inventoryprofiles.config.name.move_all_at_cursor":                 "İmlece Göre Tümünü Taşı",
+    "inventoryprofiles.config.name.stop_at_screen_close":               "Ekran Kapatıldığında Dur",
+    "inventoryprofiles.config.description.add_interval_between_clicks": "Sıralama yapılırken her bir uygulama/tik arasına zaman ekler. Zamanın büyüklüğü \"Tik Arası Süre (ms)\" ile ayarlanabilir. Gecikmeli (laglı) veya hızlı tıklaması kapalı olan sunucular için kullanışlıdır. (Bazı sunucularda sorunu es geçmek için, 67 ms önerilir)",
+    "inventoryprofiles.config.description.interval_between_clicks_ms":  "Otomati uygulama/tik arasındaki zaman. Milisaniye olarak. (Bazı sunucularda sorunu es geçmek için, 67 ms önerilir)",
+    "inventoryprofiles.config.description.restock_hotbar":              "Sıralama yaparken Sık Kullanılanlara otomatik yeniden stoklama yapar",
+    "inventoryprofiles.config.description.sort_at_cursor":              "Bu true/doğru iken, sıralama kısayolunu kullanarak, imlecin işaret ettiği yerdeki alanda sıralama yapacak. Öbür türlü her zaman pencereyi sıralayacak.",
+    "inventoryprofiles.config.description.move_all_at_cursor":          "İmleç pencereyi işaret ederken, \"Tümünü Taşı\" kısayoluyla penceredekiler oyuncuya taşınır. Öbür türlü her zaman oyuncudan, pencereye taşıma olacak.",
+    "inventoryprofiles.config.description.stop_at_screen_close":        "Envanter ekranı kapatıldığında, (\"Tık Arasında Beklet\" etkinken) sıralamayı durdur.",
+
+    "inventoryprofiles.config.name.debug_logs":                         "Hata Ayıklama Kayıtları",
+    "inventoryprofiles.config.description.debug_logs":                  "Hata Ayıklama Mesajlarını Yazdırır",
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.GuiSettings": "Oyun Arayüzü Ayarları",
+    "inventoryprofiles.config.category.inventory": "Envanter",
+    "inventoryprofiles.config.category.other": "Diğer",
+
+    "inventoryprofiles.config.name.enable_inventory_buttons":           "Envanter Tuşlarını Etkinleştir",
+    "inventoryprofiles.config.name.show_continuous_crafting_checkbox":  "Devamlı Üretim İşaret Kutucuğunu Göster",
+    "inventoryprofiles.config.name.continuous_crafting_checkbox_value": "§bKutucuk Değeri",
+    "inventoryprofiles.config.name.continuous_crafting_saved_value":    "§bKayıtlı Değer",
+    "inventoryprofiles.config.name.show_regular_sort_button":       "Normal Sıralama Tuşunu Göster",
+    "inventoryprofiles.config.name.regular_post_action":            "§bEylem Sonrası",
+    "inventoryprofiles.config.name.regular_sort_order":             "§bSıralama Düzeni",
+    "inventoryprofiles.config.name.regular_custom_rule":            "§bÖzel Kural",
+    "inventoryprofiles.config.name.show_sort_in_columns_button":    "Sütuna Sırala Tuşunu Göster",
+    "inventoryprofiles.config.name.in_columns_post_action":         "§bEylem Sonrası",
+    "inventoryprofiles.config.name.in_columns_sort_order":          "§bSıralama Düzeni",
+    "inventoryprofiles.config.name.in_columns_custom_rule":         "§bÖzel Kural",
+    "inventoryprofiles.config.name.show_sort_in_rows_button":       "Satıra Sırala Tuşunu Göster",
+    "inventoryprofiles.config.name.in_rows_post_action":            "§bEylem Sonrası",
+    "inventoryprofiles.config.name.in_rows_sort_order":             "§bSıralama Düzeni",
+    "inventoryprofiles.config.name.in_rows_custom_rule":            "§bÖzel Kural",
+    "inventoryprofiles.config.name.show_move_all_button":           "Tümünü Taşı Tuşunu Göster",
+    "inventoryprofiles.config.name.show_button_tooltips":           "Tuş Açıklamalarını Göster",
+
+    "inventoryprofiles.config.description.enable_inventory_buttons":           "Bunu, pencere ekranındaki fazladan araçları etkinleştirmek veya devre dışı bırakmak için ayarla",
+    "inventoryprofiles.config.description.show_continuous_crafting_checkbox":  "Oyun arayüzünde Devamlı Üretim İşaret Kutucuğu'nu göster (üretim masası ve hayatta kalma envanteri)\nDevamlı Üretim: Kaynak alanları otomatikman doldurur",
+    "inventoryprofiles.config.description.continuous_crafting_checkbox_value": "İşaret kutucuğundaki değeri hatırla veya sonraki ekranı açışında ayarla",
+    "inventoryprofiles.config.description.continuous_crafting_saved_value":    "İşaret kutucuğunun değerini kaydeder",
+    "inventoryprofiles.config.description.show_regular_sort_button":    "Oyun arayüzünde normal sıralama tuşunu göster",
+    "inventoryprofiles.config.description.regular_post_action":         "Normal sıralama tuşu için eylem sonrasını ayarla",
+    "inventoryprofiles.config.description.regular_sort_order":          "Normal sıralama tuşu için sıralama düzenini ayarla",
+    "inventoryprofiles.config.description.regular_custom_rule":         "Normal sıralama tuşu için özel kural ayarla",
+    "inventoryprofiles.config.description.show_sort_in_columns_button": "Oyun arayüzünde sütüna sıralama tuşunu göster",
+    "inventoryprofiles.config.description.in_columns_post_action":      "Sütuna sıralama tuşu için eylem sonrasını ayarla",
+    "inventoryprofiles.config.description.in_columns_sort_order":       "Sütuna sıralama tuşu için sıralama düzenini ayarla",
+    "inventoryprofiles.config.description.in_columns_custom_rule":      "Sütuna sıralama tuşu için özel kural ayarla",
+    "inventoryprofiles.config.description.show_sort_in_rows_button":    "Oyun arayüzünde satıra sıralama tuşunu göster",
+    "inventoryprofiles.config.description.in_rows_post_action":         "Satıra sıralama tuşu için eylem sonrasını ayarla",
+    "inventoryprofiles.config.description.in_rows_sort_order":          "Satıra sıralama tuşu için sıralama düzenini ayarla",
+    "inventoryprofiles.config.description.in_rows_custom_rule":         "Satıra sıralama tuşu için özel kural ayarla",
+    "inventoryprofiles.config.description.show_move_all_button":        "Oyun arayüzünde tümünü taşıma tuşunu göster",
+    "inventoryprofiles.config.description.show_button_tooltips":        "Oyun arayüzündeki tuşların üzerine gelindiğinde açıklama göster",
+
+    "inventoryprofiles.config.name.use_old_insert_method": "Eski Ekleme Yöntemini Kullan",
+    "inventoryprofiles.config.description.use_old_insert_method": "v0.4.2+ daha iyi mod uyumluluğu için ekrana yeni kutucuk eklenmesi için yeni bir yöntem kullanır. Eski yöntemi kullanmak için bunu true/doğru olarak ayarla. ",
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.EditProfiles": "Profilleri Düzenle",
+    "inventoryprofiles.config.category.coming_soon": "Çok Yakında!",
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.Hotkeys": "Kısayollar",
+    "inventoryprofiles.config.category.hotkeys": "Kısayollar",
+    "inventoryprofiles.config.category.misc": "Diğer",
+
+    "inventoryprofiles.config.name.open_config_menu":               "Ayar Menüsünü Aç",
+    "inventoryprofiles.config.name.sort_inventory":                 "Envanteri Sırala",
+    "inventoryprofiles.config.name.sort_inventory_in_columns":      "Envanteri Sütuna Sırala",
+    "inventoryprofiles.config.name.sort_inventory_in_rows":         "Envanteri Satıra Sırala",
+    "inventoryprofiles.config.name.move_all_items":                 "Tüm Eşyayı Taşı",
+    "inventoryprofiles.config.name.dump_item_nbt_to_chat":          "Sohbete Eşya NBT'sini Yazdırt",
+
+    "inventoryprofiles.config.description.open_config_menu":            "Oyun içindeyken ayarlar menüsünü açan bir tuş",
+    "inventoryprofiles.config.description.sort_inventory":              "Envanteri sıralayan bir tuş",
+    "inventoryprofiles.config.description.sort_inventory_in_columns":   "Envanteri sütunlara göre sıralayan bir tuş",
+    "inventoryprofiles.config.description.sort_inventory_in_rows":      "Envanteri satırlara göre sıralayan bir tuş",
+    "inventoryprofiles.config.description.move_all_items":              "Pencerede bulunan tüm eşyaları taşıyan bit tuş",
+    "inventoryprofiles.config.description.dump_item_nbt_to_chat":       "Eşyanın dizgesiyle beraber NBT bilgisini sohbete yazdırtır",
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.Tweaks": "İnce Ayarlar",
+    "inventoryprofiles.config.category.client_side_tweaks": "İstemci Taraflı İnce Ayarlar",
+    "inventoryprofiles.config.category.survival": "Hayatta Kalma",
+
+    "inventoryprofiles.config.name.prevent_close_gui_drop_item":         "Pencere Kapatımında Eldeki Eşyayı Düşürmeyi Engelle",
+    "inventoryprofiles.config.name.container_swipe_moving_items":        "Basıp Kaydırarak Eşya Taşıma",
+    "inventoryprofiles.config.name.swipe_move_crafting_result_slot":     "Basıp Kaydırarak Üretilen Eşya Alma",
+    "inventoryprofiles.config.description.prevent_close_gui_drop_item":  "Arayüzü kapatınca imlecin tutmuş olduğu eşya düşmeyecek",
+    "inventoryprofiles.config.description.container_swipe_moving_items": "Shift ile sol tıklamaya basılı tutarken imlecin altındaki tüm eşyaları hareket ettirmeni sağlar",
+    "inventoryprofiles.config.description.swipe_move_crafting_result_slot": "\"Basıp Kaydırarak Eşya Taşıma\" özelliğini, üretim masasındaki üretilen eşya alanında etkinleştir",
+
+    "inventoryprofiles.config.name.instant_mining_cooldown":            "Hızlı Kazma Bekletmesi",
+    "inventoryprofiles.config.name.disable_block_breaking_cooldown":    "Blok Kırma Bekletmesini Devre Dışı Bırak",
+    "inventoryprofiles.config.name.disable_item_use_cooldown":          "Eşya Kullanma Bekletmesini Devre Dışı Bırak",
+    "inventoryprofiles.config.name.disable_screen_shaking_on_damage":   "Hasar Alırken Kamera Sarsılmasını Devre Dışı Bırak",
+    "inventoryprofiles.config.name.disable_lava_fog":                   "Lavın İçindeki Sisi Devre Dışı Bırak",
+    "inventoryprofiles.config.description.instant_mining_cooldown":             "Hızlıca kazabileceğin bloklara, kazma gecikmesi ekler. Bu seçeneğin \"Blok Kırma Bekletmesini Devre Dışı Bırak\"tan daha az önceliği vardır.",
+    "inventoryprofiles.config.description.disable_block_breaking_cooldown":     "Tüm bloklar için kırma gecikmesini kaldırır",
+
+    "inventoryprofiles.config.description.disable_item_use_cooldown":           "Kullanma tuşunun gecikmesini kaldırır, böylece her oyun tiki başı bir sağ tıklama olmuş olur. Tweakeroo'daki \"tweakPlacementRestriction\" ayarıyla beraber kullanılabilir",
+    "inventoryprofiles.config.description.disable_screen_shaking_on_damage":    "Hasar almak, ekranını artık sallandırmıyor",
+    "inventoryprofiles.config.description.disable_lava_fog":                    "Lavın altındayken etrafı daha berrak bir şekilde görmene yarar",
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.gui.config.Debugs": "Hata Ayıklamaları",
+    "inventoryprofiles.config.category.debugs": "Hata Ayıklamaları",
+
+    "inventoryprofiles.config.name.debug_screen":                   "Hata Ayıklama Ekranı",
+    "inventoryprofiles.config.description.debug_screen":            "Hata ayıklama ekranını seç",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "inventoryprofiles.enum.sorting_method.global": "Global (%s)",
+    "inventoryprofiles.enum.sorting_method.default": "Varsayılan (Yaratıcı Menü)",
+    "inventoryprofiles.enum.sorting_method.item_name": "Eşya Adı",
+    "inventoryprofiles.enum.sorting_method.item_id": "Eşya ID'si",
+    "inventoryprofiles.enum.sorting_method.raw_id": "Eşya Sayısal ID",
+    "inventoryprofiles.enum.sorting_method.custom": "Özel Kural",
+
+    "inventoryprofiles.enum.post_action.none":             "None",
+    "inventoryprofiles.enum.post_action.group_in_rows":    "Satırlar Halinde Grup",
+    "inventoryprofiles.enum.post_action.group_in_columns": "Sütunlar Halinde Grup",
+    "inventoryprofiles.enum.post_action.distribute_evenly":"Her Yere Eşit Dağıt",
+    "inventoryprofiles.enum.post_action.shuffle":          "Karışıtr",
+    "inventoryprofiles.enum.post_action.fill_one":         "Biriyle Doldur",
+    "inventoryprofiles.enum.post_action.reverse":          "Tersine Çevir",
+
+    "inventoryprofiles.enum.threshold_unit.absolute":      "Mutlak Değer",
+    "inventoryprofiles.enum.threshold_unit.percentage":    "Yüzde (%%)",
+
+    "inventoryprofiles.enum.continuous_crafting_checkbox_value.remember":    "Hatırla",
+    "inventoryprofiles.enum.continuous_crafting_checkbox_value.checked":     "İşaretli",
+    "inventoryprofiles.enum.continuous_crafting_checkbox_value.unchecked":   "İşaretsiz",
+
+    "inventoryprofiles.enum.switch_type.toggle":   "Aç/Kapa",
+    "inventoryprofiles.enum.switch_type.hold":     "Tut",
+
+
+    "inventoryprofiles.tooltip.sort_button": "Envanteri Sırala",
+    "inventoryprofiles.tooltip.sort_columns_button": "Envanteri Sütuna Sırala",
+    "inventoryprofiles.tooltip.sort_rows_button": "Envanteri Satıra Sırala",
+    "inventoryprofiles.tooltip.move_all_button.title_move_matching": "Eşleşen Eşyaları Taşı",
+    "inventoryprofiles.tooltip.move_all_button.title_move_all": "Tüm Eşyaları Taşı",
+    "inventoryprofiles.tooltip.move_all_button.include_hotbar": "§6Tut §o%s§r\n§6 - Sık Kullanılanları Dahil Et",
+    "inventoryprofiles.tooltip.move_all_button.exclude_hotbar": "§6Tut §o%s§r\n§6 - Sık Kullanılanları Hariç Tut",
+    "inventoryprofiles.tooltip.move_all_button.move_all": "§6Tut §o%s§r\n§6 - Tümünü Taşı",
+    "inventoryprofiles.tooltip.move_all_button.move_matching_only": "§6Tut §o%s§r\n§6 - Sadece Eşleşenleri Taşı",
+    "inventoryprofiles.tooltip.continuous_crafting_checkbox": "Devamlı Üretim"
+}
