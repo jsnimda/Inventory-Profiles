@@ -9,6 +9,7 @@ import io.github.jsnimda.common.vanilla.VanillaUtil
 import io.github.jsnimda.common.vanilla.alias.*
 import io.github.jsnimda.inventoryprofiles.client.TellPlayer
 import io.github.jsnimda.inventoryprofiles.ingame.`(getIdentifier)`
+import net.minecraft.tag.TagGroup
 
 // ============
 // vanillamapping code depends on mappings
@@ -23,10 +24,10 @@ object GenerateTagVanillaTxtButtonInfo : ConfigButtonInfo() {
 
   override fun onClick(widget: ButtonWidget) {
     TellPlayer.chat("Generate tags.vanilla.txt")
-    ItemTags.getContainer().toTagTxtContent().writeToFile(fileHardcoded)
+    ItemTags.getTagGroup().toTagTxtContent().writeToFile(fileHardcoded)
     val server = Vanilla.server()
     server ?: return Unit.also { TellPlayer.chat("Not integrated server!!!") }
-    server.tagManager.items().toTagTxtContent().writeToFile(fileDatapack)
+    server.tagManager.items.toTagTxtContent().writeToFile(fileDatapack)
   } // eventually they are the same ~.~
 
   val Identifier.omittedString: String // omit minecraft
@@ -35,9 +36,9 @@ object GenerateTagVanillaTxtButtonInfo : ConfigButtonInfo() {
   val String.omittedString: String // omit minecraft
     get() = removePrefix("minecraft:")
 
-  fun TagContainer<Item>.toTagTxtContent(): String { // lets sort it
+  fun TagGroup<Item>.toTagTxtContent(): String { // lets sort it
     val list = mutableListOf<Pair<String, MutableList<String>>>()
-    for ((identifier, tag) in entries) {
+    for ((identifier, tag) in tags) {
       list += identifier.toString() to tag.values().map { Registry.ITEM.`(getIdentifier)`(it).toString() }
         .toMutableList()
     }
